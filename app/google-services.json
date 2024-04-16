@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "610899179245",
+    "project_id": "trivia-quiz-6fa6d",
+    "storage_bucket": "trivia-quiz-6fa6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610899179245:android:f024fc97bac8326eb63ee4",
+        "android_client_info": {
+          "package_name": "com.sapir.flags_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5IOVVXwDkQp_2tWCPiDslDzXH9Vy8-mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:610899179245:android:bac94e82a0829d6eb63ee4",
+        "android_client_info": {
+          "package_name": "com.sapir.trivia_quiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5IOVVXwDkQp_2tWCPiDslDzXH9Vy8-mg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

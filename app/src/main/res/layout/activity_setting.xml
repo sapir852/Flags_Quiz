@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivitySetting"
+    android:background="@drawable/ic_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:background="@drawable/background_bottom"
+       >
+
+        <!-- Back Button -->
+        <ImageButton
+            android:id="@+id/setting_btn_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back_arrow"
+            android:contentDescription="Back"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="18dp" />
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp"
+            android:layout_gravity="center_vertical"
+            />
+    </androidx.appcompat.widget.Toolbar>
+
+    <!--  -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/privacy_policy_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:text="Privacy Policy"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_privacy_policy"
+        app:iconTint="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/toolbar"
+        android:textColor="@color/black"
+        android:background="?android:attr/selectableItemBackground"
+         />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/TermsOfUse_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:text="Terms Of Usey"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_terms_of_use"
+        app:iconTint="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/privacy_policy_BTN"
+        android:textColor="@color/black"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/about_BTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawablePadding="10dp"
+        android:paddingLeft="20dp"
+        android:text="About"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:icon="@drawable/ic_about"
+        app:iconTint="@color/black"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_below="@id/TermsOfUse_BTN"
+        android:textColor="@color/black"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+
+
+</RelativeLayout>
