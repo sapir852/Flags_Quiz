@@ -11,7 +11,7 @@ Flag Tester is an app designed to help users test their knowledge of flags from 
 
 ## Video Demo
 
-[Check out our video demo [here] (link/to/video).](https://drive.google.com/file/d/1bmZm33FgHQ4F9Yyjs3cIpPmWngBvC17t/view?usp=drive_link)
+[video demo](https://drive.google.com/file/d/1bmZm33FgHQ4F9Yyjs3cIpPmWngBvC17t/view?usp=drive_link)
 
 ## Technologies Used
 
