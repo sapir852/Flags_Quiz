@@ -6,7 +6,7 @@ Flag Tester is an app designed to help users test their knowledge of flags from 
 
 ## Screenshots
 ![pic1](https://github.com/sapir852/Flags_Quiz/assets/46643472/201327b7-a2a8-4bcc-a6cb-ad27ab4140dd)
-![pic2](https://github.com/sapir852/Flags_Quiz/assets/46643472/98b5612e-e031-4ded-bc54-c338acf76d73)
+
 
 
 ## Video Demo
